@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact us | XLANORA</title>
+  <meta name="description" content="Tell us what you need. We reply by email as soon as we can.">
+  <link rel="canonical" href="/en/contact.html">
+  <link rel="alternate" hreflang="en" href="/en/contact.html"><link rel="alternate" hreflang="ar" href="/ar/contact.html"><link rel="alternate" hreflang="x-default" href="/en/contact.html">
+  <link rel="icon" href="/assets/img/logo-mark.webp" type="image/webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&amp;family=Noto+Sans+Arabic:wght@400;600;700&amp;display=swap">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container bar">
+      <a class="brand" href="/en/index.html" aria-label="XLANORA">
+        <img class="brand-logo" src="/assets/img/logo-full.webp" alt="XLANORA" width="720" height="632">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"
+              data-label-open="Open menu" data-label-close="Close menu">
+        <span class="sr-only">Menu</span>
+        <span class="bars" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Menu">
+        <a href="/en/index.html">Home</a><a href="/en/services.html">Freelancers</a><a href="/en/portfolio.html" class="nav-freelancer" hidden>Portfolio</a><a href="/en/wishlist.html" class="nav-client" hidden>Saved</a><a href="/en/about.html">About</a><a href="/en/contact.html" aria-current="page">Contact</a>
+        <a class="nav-auth" href="/en/login.html" data-signin="Sign in"
+           data-dashboard="Dashboard" data-dashboard-href="/en/dashboard.html">Sign in</a>
+        <a class="nav-signed-in" href="/en/profile.html" hidden>My profile</a>
+        <button class="nav-signout nav-signed-in" id="nav-signout" type="button" hidden>Sign out</button>
+        <a class="btn btn-small" href="/en/contact.html">Request a quote</a>
+        <a class="lang-link" lang="ar" hreflang="ar" href="/ar/contact.html">العربية</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+
+    <section class="page-intro page-band">
+      <div class="container">
+        <h1>Contact us</h1>
+        <p class="lead">Tell us what you need. We reply by email as soon as we can.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+        <form id="contact-form" class="form" novalidate>
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required minlength="2" maxlength="80">
+            <p class="field-error" id="name-error" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" autocomplete="email" required maxlength="254" dir="ltr">
+            <p class="field-error" id="email-error" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="phone">Phone (optional)</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" maxlength="30" inputmode="tel" dir="ltr">
+            <p class="field-error" id="phone-error" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="service">Service</label>
+            <select id="service" name="service">
+              <option value="">Choose a service</option><option value="photography">Photography</option><option value="home-maintenance">Home Maintenance</option><option value="education-training">Education &amp; Training</option><option value="graphic-design">Graphic Design</option><option value="web-development">Web Development</option><option value="video-editing">Video Editing</option><option value="digital-marketing">Digital Marketing</option><option value="translation-services">Translation Services</option><option value="social-media-management">Social Media Management</option>
+              <option value="unsure">Not sure yet</option>
+            </select>
+            <p class="field-error" id="service-error" role="alert"></p>
+          </div>
+          <div class="field">
+            <label for="message">Your message</label>
+            <textarea id="message" name="message" rows="6" required minlength="10" maxlength="2000"></textarea>
+            <p class="field-error" id="message-error" role="alert"></p>
+          </div>
+          <div class="hp" aria-hidden="true">
+            <label>Website <input type="text" name="website" tabindex="-1" autocomplete="off"></label>
+          </div>
+          <p id="form-status" class="form-status" role="status" aria-live="polite"></p>
+          <button class="btn" type="submit">Send request</button>
+        </form>
+
+        <aside class="contact-info">
+          <h2>Email</h2>
+          <p><a href="mailto:contactxlanora@gmail.com">contactxlanora@gmail.com</a></p>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p class="footer-brand">XLANORA</p>
+        <p class="muted">Connecting you with trusted professionals.</p>
+      </div>
+      <div>
+        <p class="footer-label">Contact</p>
+        <a href="mailto:contactxlanora@gmail.com">contactxlanora@gmail.com</a>
+        <p class="muted footer-support">Support XLANORA via PayPal: <a href="mailto:mo.t.hassan001@gmail.com">mo.t.hassan001@gmail.com</a></p>
+      </div>
+      <div class="footer-copy">
+        <p>&copy; 2026 XLANORA. All rights reserved.</p>
+        <a class="lang-link" lang="ar" hreflang="ar" href="/ar/index.html">العربية</a>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/nav.js" defer></script>
+  <script src="/assets/js/config.js" defer></script>
+  <script src="/assets/js/auth.js" defer></script>
+<script type="application/json" id="i18n">{"errors": {"name": "Please enter your name (2 to 80 characters).", "email": "Please enter a valid email address.", "phone": "Phone may only contain digits, spaces, + - ( ).", "service": "Please choose a service from the list.", "message": "Please write a message (10 to 2000 characters)."}, "generic": "Please check the highlighted fields.", "network": "We could not send your request. Please try again or email us directly.", "success": "Thank you. Your request has been received. We will reply by email.", "sending": "Sending..."}</script>
+  <script src="/assets/js/contact.js" defer></script>
+</body>
+</html>

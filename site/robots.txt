@@ -1,0 +1,20 @@
+# XLANORA robots.txt
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /en/admin.html
+Disallow: /ar/admin.html
+Disallow: /en/dashboard.html
+Disallow: /ar/dashboard.html
+Disallow: /en/profile.html
+Disallow: /ar/profile.html
+Disallow: /en/wishlist.html
+Disallow: /ar/wishlist.html
+Disallow: /en/verify.html
+Disallow: /ar/verify.html
+Disallow: /en/login.html
+Disallow: /ar/login.html
+Disallow: /en/register.html
+Disallow: /ar/register.html
+
+Sitemap: https://YOUR-SITE-NAME.netlify.app/sitemap.xml
