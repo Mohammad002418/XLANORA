@@ -6,6 +6,6 @@
 window.XLANORA_CONFIG = {
   backend: "supabase",
   endpoint: "/api/contact",
-  supabaseUrl: "https://vohfzgufykejuzcblwjt.supabase.co/rest/v1/",
+  supabaseUrl: "https://vohfzgufykejuzcblwjt.supabase.co",
   supabaseAnonKey: "sb_publishable_zWQfnK4f7-quFbw-NtjDSg_oqCLBLkg"
 };
