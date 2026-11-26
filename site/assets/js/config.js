@@ -4,7 +4,7 @@
 // The anon key is public by design; RLS limits it to inserting contact messages.
 // Never put the service role key in this file.
 window.XLANORA_CONFIG = {
-  backend: "local",
+  backend: "supabase",
   endpoint: "/api/contact",
   supabaseUrl: "https://vohfzgufykejuzcblwjt.supabase.co/rest/v1/",
   supabaseAnonKey: "sb_publishable_zWQfnK4f7-quFbw-NtjDSg_oqCLBLkg"
